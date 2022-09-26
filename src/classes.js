@@ -1,6 +1,6 @@
 export class Player {
     constructor(id, username, isHost, playerStates) {
-        this.id = id
+        this.id = id,
         this.username = username,
         this.isHost = isHost,
         this.playerStates = playerStates
@@ -11,7 +11,7 @@ export class PlayerState {
     constructor(score, bet, hand, playedCard, playsNext, tricksWon) {
         this.score = score,
         this.bet = bet,
-        this.hand = hand
+        this.hand = hand,
         this.playedCard = playedCard,
         this.playsNext = playsNext,
         this.tricksWon = tricksWon
