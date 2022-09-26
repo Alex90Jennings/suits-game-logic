@@ -1,5 +1,6 @@
 export class Player {
-    constructor(username, isHost, playerStates) {
+    constructor(id, username, isHost, playerStates) {
+        this.id = id
         this.username = username,
         this.isHost = isHost,
         this.playerStates = playerStates
