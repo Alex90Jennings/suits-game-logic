@@ -1,4 +1,5 @@
 import { Player, PlayerState, Table, Round } from "./classes";
+import RenderPlayers from "./RenderPlayers";
 
 const playerZeroStateZero = new PlayerState(0, 0, '', '', false, 0)
 const playerOneStateZero = new PlayerState(0, 0, '', '', false, 0)
@@ -17,7 +18,9 @@ console.log(table)
 function App() {
   return (
     <div>
-    
+      <ul>
+        <RenderPlayers />
+      </ul>
     </div>
   );
 }
